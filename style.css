@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+}
+.fitContent{
+  height:700px;
+}
+.nav-head{
+    height:90px;
+    border: 1px solid black;
+    display:flex;
+    padding :0px 36px;
+    position:relative;
+    z-index:2;
+   
+}
+.net-logo{
+    height:80px;
+    width:80%;
+    background-image: url(img/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.option{
+    height:80px;
+    width:125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+
+.lang{
+    color:white;
+    font-size: 1rem;  
+    padding: 6px 20px;
+    background-color: rgba(0, 0, 0, 0.568);
+    margin-top:10px;
+    border-radius:3px;
+    border:0.5px solid whitesmoke;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:15px;
+    border:none;
+}
+
+
+.btn-1{
+    background-color: #E50914;
+    color:#ffffff;
+    font-size:1rem;
+    padding: 5px 16px;
+    border-radius: 5px;
+}
+
+.cover-img{
+    position:relative;
+    height:700px;
+    background-image: url(img/cover.jpg);
+    background-size: cover;
+}
+.background-layer{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    background-color: rgba(0,0,0,40%);
+    z-index:1;
+}
+
+
+.content{
+    height:60px;
+    font-size:3rem;
+    font-weight:900;
+    color:#ffffff;
+    margin-top:20px;
+    position: relative;
+    z-index:3;
+    width:100%;
+    margin-top:150px;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    margin:16px 0 0;
+}
+
+.size{
+    font-size: 1.5rem;
+    font-weight:400;
+}
+
+.button2{
+    height:55px;
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:8px;
+}
+
+.btn-2{
+    font-size: 1.2rem;
+    margin:8px;
+    padding:12px 24px;
+    border-radius: 0.4rem;
+    background-color: #E50914;
+    color:white;
+}
+
+input{
+    width:380px;
+    padding:13px;
+    background-color: rgba(0, 0, 0, 0.568);
+    font-size: 1rem;
+    border-radius:0.3rem;
+}
+
+.btn-1:hover{
+    background-color: #e50914d8;
+}
+.btn-2:hover{
+    background-color: #e50914d8;
+}
