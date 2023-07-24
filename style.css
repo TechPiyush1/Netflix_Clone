@@ -141,6 +141,8 @@ input{
 
 /* content section*/
 
+
+/*Middle Section*/
 .container{
     height:20.938rem;
     background-color: black;
@@ -187,17 +189,54 @@ input{
 
 
 .container2{
-    height:57.813rem;
+    height:40.813rem;
     background-color: black;
     border-top:0.35rem solid hwb(0 50% 50% / 0.404);
+    padding-top:72px;
+    padding-bottom:72px;
+    text-align: center;
+}
+.heading{
+    color: #ffffff;
+    height:4.7rem;
+    width:1250px;
+    font-size:3rem;
+    text-align: center;
+    font-weight: 900;
 }
 
 .buttons button{
-    width:112.5rem;
+    width:890px;
     height:5.2rem;
     padding:2rem;
-    border-top:0.35rem solid hwb(0 50% 50% / 0.404);
+   color:#ffffff;
+   font-size: 2rem;
+   text-align: left;
+   background-color:  hwb(0 50% 50% / 0.404);
+}
+
+.buttons button:hover{
+    background-color:  hwb(0 50% 50% / 0.534);
 }
 
 
+/* footer section */
 
+footer{
+        height:300px;
+        background-color: black;
+        border-top:0.35rem solid hwb(0 50% 50% / 0.404);
+        color: white;
+        display:flex;
+        padding: 60px 0 60px;
+}
+.anchor-tag{
+    margin-left: 4rem;
+}
+.anchor-tag a{
+    color: white;
+    display: flex;
+    width:310px;
+    height:21px;
+    padding:12px 0px 12px;
+}
